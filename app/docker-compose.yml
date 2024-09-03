@@ -1,0 +1,8 @@
+services:
+  app-csv:
+    build: 
+    #creating and building a service named app-csv
+      context: .
+      #from the already located context
+      dockerfile: Dockerfile
+      #and find the dockerfile Dockerfile
