@@ -6,3 +6,6 @@ services:
       #from the already located context
       dockerfile: Dockerfile
       #and find the dockerfile Dockerfile
+    volumes: 
+      - .:/app
+    #this automatize the file changes managing 
